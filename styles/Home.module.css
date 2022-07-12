@@ -77,10 +77,11 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068CA6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
   width: 100%;
 }
 .link {
@@ -141,7 +142,7 @@
 }
 .circles:nth-child(2) {
   position: relative;
-  top: 0;
+  bottom: 45px;
   flex-direction: column-reverse;
   text-align: center;
 }
@@ -153,19 +154,19 @@
 }
 .circles:nth-child(4) {
   position: relative;
-  left: -20px;
+  left: 0;
   flex-direction: row-reverse;
   text-align: rigth;
 }
 .circles:nth-child(6) {
   position: relative;
-  left: 20px;
+  left: 0;
   text-align: left;
 }
 .circles:nth-child(7) {
   position: relative;
-  bottom: 45px;
-  right: -35px;
+  bottom: 75px;
+  right: 0;
   flex-direction: row-reverse;
   text-align: right;
 }
@@ -177,8 +178,8 @@
 }
 .circles:nth-child(9) {
   position: relative;
-  bottom: 45px;
-  right: 35px;
+  bottom: 75px;
+  right: 0;
   text-align: left;
 }
 
@@ -192,6 +193,10 @@
 .circles:nth-child(3) .innerText {
   max-width: 242px;
 }
+.circles:nth-child(9) .innerText {
+  max-width: 239px;
+}
+
 
 
 
