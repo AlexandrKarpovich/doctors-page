@@ -13,27 +13,42 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h2 className={styles.title}>
+          А вдруг СМА?
+        </h2>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          Выберите, кто Ваш пациент:
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          
+          <div className={styles.card}>
+            <h4>Взрослый</h4>
+            <Image src="/woman.png" alt="Vercel Logo" width={300} height={300} />
+            <div className={styles.card}>
+              <p>Менее тяжелые формы СМА могут возникать и диагностироваться в зрелом возрасте. </p>
+            </div>
+            <div className={styles.card}>
+            <p>По сравнению с СМА у детей, СМА у взрослых может иметь более легкие симптомы, но без патогенетической терапии пациенты со СМА 2-3 типа неуклонно теряют двигательные навыки. </p>
+            </div>
+            <div className={styles.card}>
+              <p>По сравнению с СМА в детстве, течение СМА у взрослых может быть более коварным и трудным для распознавания.  </p>
+            </div>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <div className={styles.card}>
+            <h4>Ребенок</h4>
+            <Image src="/child.png" alt="Vercel Logo" width={300} height={300} />
+            <div className={styles.card}>
+              <p>Ребенок, плохо удерживающий голову, когда ему придают сидячее положение, с вялыми движениями нижних конечностей или с трудом тянущийся к предметам, но при этом с осмысленным и ярким взглядом, улыбающийся и социально активный, вызывает настороженность в отношении наличия СМА.</p>
+            </div>
+            <div className={styles.card}>
+              <p>Младенцам со СМА необходимо экстренное направление к специалисту, ранняя диагностика и обеспечение терапией, спасающей жизнь, поскольку эти мотонейроны очень быстро подвергаются дегенерации при прогрессировании заболевания</p>
+            </div>
+          </div>
 
-          <a
+          {/* <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
@@ -49,11 +64,12 @@ const Home: NextPage = () => {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
         </div>
+        <p>Сообщает ли один из ваших пациентов о следующих симптомах? (нажмите на любую иконку и узнайте больше)</p>
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -64,7 +80,7 @@ const Home: NextPage = () => {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
