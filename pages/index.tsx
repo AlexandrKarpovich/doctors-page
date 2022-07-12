@@ -66,23 +66,61 @@ const Home: NextPage = () => {
             </p>
           </a> */}
         </div>
-        <p className={styles.description}>Сообщает ли один из ваших пациентов о следующих симптомах? (нажмите на любую иконку и узнайте больше)</p>
+        <p className={styles.description}>Сообщает ли один из ваших пациентов о следующих симптомах? <a className={styles.link} href='#'>(нажмите на любую иконку и узнайте больше)</a></p>
+        
+
+        <div className={styles.wrap}>
+          <div className={styles.slider}>
+
+          <div className={styles.circles}>
+            <Image src="/pic1.png" alt="pic1" width={135} height={131} />
+            <p className={styles.innerText}>Утомляемость</p>
+          </div>
+          
+          <div className={styles.circles}>
+            <Image src="/pic2.png" alt="pic2" width={135} height={131} />
+            <p className={styles.innerText}>Сколиоз</p>
+          </div>
+          
+          <div className={styles.circles}>
+            <Image src="/pic3.png" alt="pic3" width={135} height={131} />
+            <p className={styles.innerText}>Ограниченная способность поднимать руки и переносить предметы</p>
+          </div>
+          
+          <div className={styles.circles}>
+            <Image src="/pic4.png" alt="pic4" width={135} height={131} />
+            <p className={styles.innerText}>Вывих бедра</p>
+          </div>
+          
+          <div className={styles.Pic}>
+            <Image src="/woman.png" alt="woman" width={315} height={315} />
+          </div>
+
+
+          <div className={styles.circles}>
+            <Image src="/pic5.png" alt="pic5" width={135} height={131} />
+            <p className={styles.innerText}>Нарушения жевания и глотания</p>
+          </div>
+
+          <div className={styles.circles}>
+            <Image src="/pic6.png" alt="pic6" width={135} height={131} />
+            <p className={styles.innerText}>Утомляемость</p>
+          </div>
+
+          <div className={styles.circles}>
+            <Image src="/pic7.png" alt="pic7" width={135} height={131} />
+            <p className={styles.innerText}>Утомляемость</p>
+          </div>
+
+          <div className={styles.circles}>
+            <Image src="/pic8.png" alt="pic8" width={135} height={131} />
+            <p className={styles.innerText}>Утомляемость</p>
+          </div>
+          
+          </div>
+        </div>
       </main>
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
-
-      
     </div>
   )
 }
