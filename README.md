@@ -2,8 +2,7 @@
 
 https://hh.ru/vacancy/67648927?from=negotiations_item&hhtmFrom=negotiations_item
 
-work tz
-
+ТЗ для тестового задания
 https://www.figma.com/file/fJMZKFnvulrRcF52LMv5sI/Test?node-id=0%3A1 доступен макет страницы, необходимо подготовить вёрстку с использованием React + Next.js + TypeScript. Из основных сложностей - это карусель внизу, которая реагирует на наведение мышки и показывает подпись в зависимости от элемента, на который навели.
 
 План выполнения:
@@ -15,4 +14,4 @@ https://www.figma.com/file/fJMZKFnvulrRcF52LMv5sI/Test?node-id=0%3A1 досту�
 - отправить ссылку на этот код в личные сообщения hh
 
 
-<!-- ![Image alt](https://github.com/AlexandrKarpovich/doctors-page/blob/master/public/demo.jpg) -->
+![Image alt](https://github.com/AlexandrKarpovich/doctors-page/blob/main/public/demo.jpg)
