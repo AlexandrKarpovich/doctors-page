@@ -47,24 +47,6 @@ const Home: NextPage = () => {
               <p>Младенцам со СМА необходимо экстренное направление к специалисту, ранняя диагностика и обеспечение терапией, спасающей жизнь, поскольку эти мотонейроны очень быстро подвергаются дегенерации при прогрессировании заболевания</p>
             </div>
           </div>
-
-          {/* <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a> */}
         </div>
         <p className={styles.description}>Сообщает ли один из ваших пациентов о следующих симптомах? <a className={styles.link} href='#'>(нажмите на любую иконку и узнайте больше)</a></p>
         
@@ -73,48 +55,64 @@ const Home: NextPage = () => {
           <div className={styles.slider}>
 
           <div className={styles.circles}>
-            <Image src="/pic1.png" alt="pic1" width={135} height={131} />
+            <div className={styles.img}>
+              <Image src="/pic1.png" alt="pic1" width={135} height={131} />
+            </div>
             <p className={styles.innerText}>Утомляемость</p>
           </div>
           
           <div className={styles.circles}>
-            <Image src="/pic2.png" alt="pic2" width={135} height={131} />
+            <div className={styles.img}>
+              <Image src="/pic2.png" alt="pic2" width={135} height={131} />
+            </div>
             <p className={styles.innerText}>Сколиоз</p>
           </div>
           
           <div className={styles.circles}>
-            <Image src="/pic3.png" alt="pic3" width={135} height={131} />
+            <div className={styles.img}>
+              <Image src="/pic3.png" alt="pic3" width={135} height={131} />
+            </div>
             <p className={styles.innerText}>Ограниченная способность поднимать руки и переносить предметы</p>
           </div>
           
           <div className={styles.circles}>
-            <Image src="/pic4.png" alt="pic4" width={135} height={131} />
+            <div className={styles.img}>
+              <Image src="/pic4.png" alt="pic4" width={135} height={131} />
+            </div>
             <p className={styles.innerText}>Вывих бедра</p>
           </div>
           
           <div className={styles.Pic}>
-            <Image src="/woman.png" alt="woman" width={315} height={315} />
+            <Image src="/woman-big.png" alt="woman" width={315} height={315} />
+            <p className={styles.innerTextBig}>Взрослый</p>
           </div>
 
-
           <div className={styles.circles}>
-            <Image src="/pic5.png" alt="pic5" width={135} height={131} />
+            <div className={styles.img}>
+              <Image src="/pic5.png" alt="pic5" width={135} height={131} />
+            </div>
             <p className={styles.innerText}>Нарушения жевания и глотания</p>
           </div>
 
           <div className={styles.circles}>
-            <Image src="/pic6.png" alt="pic6" width={135} height={131} />
-            <p className={styles.innerText}>Утомляемость</p>
+            <div className={styles.img}>
+              <Image src="/pic6.png" alt="pic6" width={135} height={131} />
+            </div>
+            <p className={styles.innerText}>Контрактура суставов</p>
           </div>
 
           <div className={styles.circles}>
-            <Image src="/pic7.png" alt="pic7" width={135} height={131} />
-            <p className={styles.innerText}>Утомляемость</p>
+            <div className={styles.img}>
+              <Image src="/pic7.png" alt="pic7" width={135} height={131} />
+            </div>
+            <p className={styles.innerText}>Неспособность бегать, изменение походки</p>
           </div>
 
           <div className={styles.circles}>
-            <Image src="/pic8.png" alt="pic8" width={135} height={131} />
-            <p className={styles.innerText}>Утомляемость</p>
+            <div className={styles.img}>
+              <Image src="/pic8.png" alt="pic8" width={135} height={131} />
+            </div>
+            <p className={styles.innerText}>Дыхательная недостаточность/ респираторная дисфункция</p>
           </div>
           
           </div>

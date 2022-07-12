@@ -3,6 +3,9 @@
 }
 
 .main {
+  max-width: 1264px;
+  width: 100%;
+  margin: auto;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -52,8 +55,8 @@
 
 .grid {
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: stretch;
   flex-wrap: wrap;
   width: 100%;
   max-width: 1264px;
@@ -70,13 +73,14 @@
 
 .comments {
   margin: 1rem 0;
-  padding: 1.5rem;
+  padding: 16px 24px;
   text-align: left;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgba(255, 255, 255, 0.7);
   width: 100%;
 }
 .link {
@@ -86,9 +90,26 @@
   color: #068CA6;
 }
 .Pic {
+  width: 33%;
   border-radius: 50%;
-  width: 315px;
+  position: relative;
 }
+.Pic img {
+  width: 100%;
+}
+.innerTextBig {
+  position: absolute;
+  bottom: 44px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #068CA6;
+}
+
 .slider {  
   max-width: 1008px;
   width: 100%;
@@ -100,16 +121,16 @@
 }
 .circles {
   width: 33%;
-	/* height: 169px; */
 	border-radius: 50%;
 	color: #fff;
 	display: flex;
-	/* flex-direction: column; */
-	/* justify-content: center; */
 	align-items: center;
 	cursor: pointer;
 	position: relative;
 	text-align: center;
+}
+.circles .img {
+  width: 100%;
 }
 .circles:first-child {
   position: relative;
@@ -136,11 +157,6 @@
   flex-direction: row-reverse;
   text-align: rigth;
 }
-/* .circles:hth-child(5) {
-  transform: scale(1.2);
-  position: relative;
-  background: red;
-} */
 .circles:nth-child(6) {
   position: relative;
   left: 20px;
