@@ -1,3 +1,4 @@
+# [doctors-page](doctors-page.vercel.app)
 
 https://hh.ru/vacancy/67648927?from=negotiations_item&hhtmFrom=negotiations_item
 
@@ -12,3 +13,6 @@ https://www.figma.com/file/fJMZKFnvulrRcF52LMv5sI/Test?node-id=0%3A1 досту�
 В качестве полного отчета о выполнении задания принимается:
 - код подготовленной страницы, который может быть выложен в любом удобном месте
 - отправить ссылку на этот код в личные сообщения hh
+
+
+<!-- ![Image alt](https://github.com/AlexandrKarpovich/doctors-page/blob/master/public/demo.jpg) -->
