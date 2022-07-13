@@ -48,8 +48,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        
-        <p className={styles.description}>Сообщает ли один из ваших пациентов о следующих симптомах? <a className={styles.link} href='#'>(нажмите на любую иконку и узнайте больше)</a></p>
+
+        <p className={styles.descrip}>Сообщает ли один из ваших пациентов о следующих симптомах? <a className={styles.link} href='#'>(нажмите на любую иконку и узнайте больше)</a></p>
         
 
         <div className={styles.wrap}>
